@@ -1,0 +1,76 @@
+.introduce {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  .introduce__top {
+    width: 50%;
+    margin-top: 50px;
+    & span{
+        color: red;
+    }
+    & h1 {
+      font-family: Golestan;
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    & p {
+      font-family: Golestan;
+      font-size: 16px;
+      opacity: 0.6;
+      line-height: 30px;
+      text-align: justify;
+    }
+  }
+  .introduce__btm {
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    & h2 {
+      font-family: Golestan;
+      color: red;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    & p{
+        font-family: Golestan;
+        font-size: 16px;
+        opacity: 0.6;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .products{
+        width: 100%;
+        margin-top: 120px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        column-gap: 15px;
+        .first{
+            width: 180px;
+            height: 260px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15px;
+            border-bottom: 1px solid rgb(203, 203, 203);
+        }
+        & img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+        }
+        & h5{
+            font-family: Golestan;
+            font-size: 16px;
+            color: #2b2b2b;
+            opacity: 0.6;
+            font-weight: normal;
+        }
+    }
+  }
+}
