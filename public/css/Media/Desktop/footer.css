@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    height: 470px;
+    background-color: #262626;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 20px;
+    .footer__item{
+        width: 170px;
+        height: 340px;
+        background-color: lightgoldenrodyellow;
+        margin-top: 50px;
+    }
+}

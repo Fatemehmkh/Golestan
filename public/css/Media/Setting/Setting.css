@@ -13,3 +13,10 @@
     src: url(../../../fonts/IRANSansWeb-Light.woff);
     src: url(../../../fonts/IRANSansWeb-Light.woff2);
 }
+@font-face {
+    font-family: B-Nazanin;
+    src: url(../../../fonts/B-Nazanin/BNazanin.eot);
+    src: url(../../../fonts/B-Nazanin/BNazanin.ttf);
+    src: url(../../../fonts/B-Nazanin/BNazanin.woff);
+    src: url(../../../fonts/B-Nazanin/BNazanin.woff2);
+}

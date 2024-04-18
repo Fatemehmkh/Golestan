@@ -1,0 +1,61 @@
+.social {
+  width: 100%;
+  height: 600px;
+  background-color: #e9d69f;
+  .social__item {
+    width: inherit;
+    height: 580px;
+    background-color: #105153;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .social__image {
+      width: 390px;
+      height: 340px;
+      position: absolute;
+      bottom: -23%;
+      & img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+        box-shadow: 1px 1px 15px #2b2b2b;
+      }
+    }
+    .social__image {
+      width: 390px;
+      height: 340px;
+      & img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+      }
+    }
+    & h4{
+        font-family: Golestan;
+        font-size: 17px;
+        color: rgb(189, 187, 187);
+        font-weight: normal;
+    }
+    & h5 {
+      font-family: Golestan;
+      color: white;
+      font-size: 18px;
+      font-weight: normal;
+    }
+    & h2 {
+      font-family: Golestan;
+      color: #00d8df;
+      font-size: 20px;
+      font-weight: normal;
+      margin-top: 15px;
+      & span {
+        font-family: Golestan;
+        color: #009da2;
+        font-size: 32px;
+        font-weight: normal;
+      }
+    }
+  }
+}

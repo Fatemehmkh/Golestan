@@ -1,0 +1,65 @@
+.history {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .history__item {
+    width: 45%;
+    height: inherit;
+    .history__top {
+      width: 100%;
+      height: 50%;
+      padding: 30px 20px 0 0;
+      & h2 {
+        font-family: Golestan;
+        font-size: 20px;
+        color: #ff0000;
+        margin-bottom: 10px;
+      }
+      & p {
+        font-family: Golestan;
+        font-size: 16px;
+        color: #2b2b2b;
+        opacity: 0.7;
+        text-align: justify;
+        line-height: 35px;
+      }
+    }
+    .history__btm {
+      width: 100%;
+      height: 50%;
+      padding: 0 20px 0 0;
+      & p{
+        font-family: Golestan;
+        font-size:16px; 
+        color: #2b2b2b;
+        opacity: 0.7;
+        text-align: justify;
+        line-height: 35px;
+        & span{
+            color: #ff0000;
+            font-weight: bold;
+            opacity: 4;
+        }
+      }
+      & button{
+        width: 135px;
+        height: 40px;
+        text-decoration: none;
+        font-family: Golestan;
+        font-size: 16px;
+        border: 1px solid lightgrey;
+        border-radius: 8px;
+        background-color: white;
+        margin-top: 20px;
+        color: rgb(135, 135, 135);
+        transition: 300ms;
+        &:hover{
+            background-color: #ff0000;
+            color: whitesmoke;
+        }
+      }
+    }
+  }
+}

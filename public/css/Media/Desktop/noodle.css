@@ -1,0 +1,125 @@
+.noodle {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  .noodle__item__1 {
+    width: 318px;
+    height: 448px;
+    box-shadow: 1px 1px 15px #939292;
+    position: relative;
+    background-image: url(../../../image/noodle/img-1.png);
+    background-size: cover;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    .noodle__text{
+        width: inherit;
+        height: 60px;
+    }
+    .noodle__item__1__top {
+      width: inherit;
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      & img {
+        width: 30px;
+        height: 20px;
+        object-fit: cover;
+      }
+      & div {
+        font-family: B-Nazanin;
+        color: white;
+        font-size: 13px;
+      }
+    }
+    .noodle__item__1__btm {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .noodle__item__2 {
+    width: 318px;
+    height: 448px;
+    box-shadow: 1px 1px 15px #939292;
+    position: relative;
+    background-image: url(../../../image/noodle/img-2.png);
+    background-size: cover;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    .noodle__item__2__top {
+      width: inherit;
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      & img {
+        width: 30px;
+        height: 20px;
+        object-fit: cover;
+      }
+      & div {
+        font-family: B-Nazanin;
+        color: white;
+        font-size: 13px;
+      }
+    }
+    .noodle__item__2__btm {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .noodle__item__3 {
+    width: 318px;
+    height: 448px;
+    box-shadow: 1px 1px 15px #939292;
+    position: relative;
+    background-image: url(../../../image/noodle/img-3.png);
+    background-size: cover;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    .noodle__item__3__top {
+      width: inherit;
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      & img {
+        width: 30px;
+        height: 20px;
+        object-fit: cover;
+      }
+      & div {
+        font-family: B-Nazanin;
+        color: white;
+        font-size: 13px;
+      }
+    }
+    .noodle__item__3__btm {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
